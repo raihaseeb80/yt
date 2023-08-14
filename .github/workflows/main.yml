@@ -1,4 +1,4 @@
-name: Windows 10 - Anydesk
+name: Windows - Anydesk
 
 on:
   workflow_dispatch:
@@ -19,4 +19,4 @@ jobs:
         run: cmd /c start.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 43200
